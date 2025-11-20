@@ -38,16 +38,14 @@
 <body>
   <div class="container">
     <!-- 
-      تحديث المسار لاستخدام مجلد "images". 
-      الحل المرجح الآن هو أن ملف الصورة ليس في نفس مجلد index.html.
-      يرجى إنشاء مجلد "images" في مستودع GitHub الخاص بك ونقل ملف 43453453453.jpg إليه.
-      
-      المسار الجديد: images/43453453453.jpg
+      نقوم بالتجربة بمسارات متعددة (srcsets) للتحقق من مشكلة حالة الأحرف (Case Sensitivity) في GitHub. 
+      يجب أن يعمل أحد هذه المسارات طالما أن الملف موجود في المستودع.
     -->
     <img 
       class="menu" 
-      src="43453453453.jpg" 
       alt="Yoyo's Truck Menu"
+      srcset="images/43453453453.jpg, images/43453453453.JPG, 43453453453.jpg"
+      src="images/43453453453.jpg" 
     >
   </div>
 </body>
